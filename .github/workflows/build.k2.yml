@@ -1,4 +1,4 @@
-name: Build K2P kvr from vb1980 kvr repo
+name: Build K2
 
 on:
   workflow_dispatch:
@@ -36,7 +36,7 @@ env:
   TOOLCHAIN_URL: https://github.com/hanwckf/padavan-toolchain/releases/download/v1.1/mipsel-linux-uclibc.tar.xz
   WORK_PATH: /opt/rt-n56u
   TIME_ZONE: Asia/Shanghai
-  TARGET_NAME: NEWIFI3
+  TARGET_NAME: PSG1218
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
   FIRMWARE_AUTHOR: chongshengB
   FIRMWARE_PATH: /opt/firmwares
